@@ -1,0 +1,43 @@
+#eureka discovery config
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+
+#Service Port number
+server:
+  port: 8000
+#Spring service name
+spring:
+  application:
+    name: API-GATEWAY
+
+  #defining routes for our services
+  cloud:
+    gateway:
+      routes:
+        #Device Service Routes
+        - id: DEVICE-SERVICE
+          uri: lb://DEVICE-SERVICE
+          predicates:
+            - Path=/api/device
+        #History Service Routes
+        - id: HISTORY-SERVICE
+            uri: lb://HISTORY-SERVICE
+            predicates:
+              - Path=/api/history
+
+#add logging to understand more details about the gateway tracing
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        cloud:
+          gateway: trace
+            route:
+              RouteDefinitionLocator: info

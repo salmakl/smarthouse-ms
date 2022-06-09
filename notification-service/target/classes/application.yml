@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: NOTIFICATION-SERVICE
+
+  #rabbitMQ configuration
+  rabbitmq:
+    addresses: localhost:5672
+
+server:
+  port: 9092
+
+#eureka discovery config
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost

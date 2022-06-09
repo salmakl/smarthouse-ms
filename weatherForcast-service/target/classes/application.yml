@@ -1,0 +1,13 @@
+server:
+  port: 9093
+spring:
+  application:
+    name: WEATHER-SERVICE
+
+  #load balancing for openFeign Client
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: false
+
+

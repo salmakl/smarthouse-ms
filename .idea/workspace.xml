@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48920905-7608-4e6a-a620-23b1e108c08f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="29Z1Hc6ZV7MM74JOqV7Lx6EUxeS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notification-service/src/main/java/ma/youcode/notifier" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ma.youcode.device.rabbitmq.model" />
+      <recent name="ma.youcode.history.model.enums" />
+      <recent name="ma.youcode.device.service.interfaces" />
+      <recent name="ma.youcode.device.enums" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\YouCode\Documents\SpringProjetcs\Briefs\smart-house-ms\notification-service\src\main\java\ma\youcode\notifier" />
+      <recent name="C:\Users\YouCode\Documents\SpringProjetcs\Briefs\smart-house-ms\registery-service\src\main\resources" />
+      <recent name="C:\Users\YouCode\Documents\SpringProjetcs\Briefs\smart-house-ms\registery-service\src\main\java" />
+      <recent name="C:\Users\YouCode\Documents\SpringProjetcs\Briefs\smart-house-ms\history-service\src\main\java\ma\youcode\history\service" />
+      <recent name="C:\Users\YouCode\Documents\SpringProjetcs\Briefs\smart-house-ms\history-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YouCode\Documents\SpringProjetcs\Briefs\smart-house-ms\weatherForcast-service\src\main\java\ma\youcode\weather\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.youcode.device.model" />
+      <recent name="ma.youcode.history.resource" />
+      <recent name="ma.youcode.weather" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WeatherForcastServiceApp">
+    <configuration name="DeviceServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="device-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.youcode.device.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.youcode.device.DeviceServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="history-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.youcode.history.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.youcode.history.HistoryServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="notification-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.youcode.notifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.youcode.notifier.NotificationServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="registry-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.youcode.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.youcode.server.ServiceRegistryApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherForcastServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="weatherForcast-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.youcode.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.youcode.weather.WeatherForcastServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HistoryServiceApp" />
+        <item itemvalue="Spring Boot.DeviceServiceApp" />
+        <item itemvalue="Spring Boot.ServiceRegistryApp" />
+        <item itemvalue="Spring Boot.WeatherForcastServiceApp" />
+        <item itemvalue="Spring Boot.NotificationServiceApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48920905-7608-4e6a-a620-23b1e108c08f" name="Changes" comment="" />
+      <created>1653305709093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653305709093</updated>
+      <workItem from="1653305711040" duration="18309000" />
+      <workItem from="1653380030394" duration="3577000" />
+      <workItem from="1653642582871" duration="3525000" />
+      <workItem from="1653832045533" duration="982000" />
+      <workItem from="1653838406974" duration="10463000" />
+      <workItem from="1653917319708" duration="7485000" />
+      <workItem from="1653939048742" duration="678000" />
+      <workItem from="1653986478232" duration="16000" />
+      <workItem from="1654094476721" duration="1162000" />
+      <workItem from="1654168359103" duration="9000" />
+      <workItem from="1654437291153" duration="6718000" />
+      <workItem from="1654446923161" duration="1519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

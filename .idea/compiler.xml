@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="weatherForcast-service" />
+        <module name="consumption-service" />
+        <module name="gateway-service" />
+        <module name="configServer-service" />
+        <module name="registry-service" />
+        <module name="history-service" />
+        <module name="deviceAuthority-service" />
+        <module name="device-service" />
+        <module name="notification-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="weather-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
